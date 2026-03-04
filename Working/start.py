@@ -274,7 +274,7 @@ plt.tight_layout()
 plt.show()
 
 # Save the dataframe with event_year included
-feature_df.to_csv('clustered_rainfall_events.csv', index=False)
+feature_df.to_csv('Data/clustered_rainfall_events.csv', index=False)
 print("Saved clustered_rainfall_events.csv with event_year column")
 
 from sklearn.model_selection import train_test_split

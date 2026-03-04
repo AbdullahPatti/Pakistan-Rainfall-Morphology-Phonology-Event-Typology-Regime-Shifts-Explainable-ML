@@ -123,8 +123,8 @@ if not shift_df.empty:
 else:
     analysis_df = pd.DataFrame()
 
-shift_df.to_csv('detected_regime_shifts.csv', index=False)
-yearly_props_df.to_csv('yearly_typology_proportions.csv', index=False)
+shift_df.to_csv('Data/detected_regime_shifts.csv', index=False)
+yearly_props_df.to_csv('Data/yearly_typology_proportions.csv', index=False)
 
 if not shift_df.empty:
     sample_districts = shift_df['district'].head(3).tolist()

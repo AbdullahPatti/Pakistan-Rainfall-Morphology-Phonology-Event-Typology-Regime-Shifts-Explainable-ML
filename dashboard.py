@@ -255,7 +255,7 @@ elif page == "ℹ️ About":
 
     Data source: WFP Rainfall Indicators  
     Tools: Pandas, scikit-learn, ruptures, XGBoost, TensorFlow, SHAP, Streamlit, Plotly  
-    Author: Abdullah Patti
+    Author: Abdullah Haroon
     """)
 
 st.markdown("---")

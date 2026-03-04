@@ -5,8 +5,8 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score
 from sklearn.preprocessing import LabelBinarizer
 
-shift_df = pd.read_csv('detected_regime_shifts.csv')
-yearly_props_df = pd.read_csv('yearly_typology_proportions.csv')
+shift_df = pd.read_csv('Data/detected_regime_shifts.csv')
+yearly_props_df = pd.read_csv('Data/yearly_typology_proportions.csv')
 
 results_dict = {
     'Logistic Regression': {'accuracy': 0.78, 'macro_f1': 0.76, 'weighted_auc': 0.89},
