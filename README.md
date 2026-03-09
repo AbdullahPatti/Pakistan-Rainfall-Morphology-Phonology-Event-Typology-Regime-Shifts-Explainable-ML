@@ -191,8 +191,6 @@ This shows rainfall typology is driven more by **temporal structure** than raw i
 ---
 
 
----
-
 # Dashboard
 
 Interactive rainfall analysis dashboard:
@@ -231,7 +229,6 @@ The dashboard allows:
 Future improvements include:
 
 - Using **daily rainfall data**
-- Applying **SHAP explainability**
 - Adding atmospheric variables
 - Addressing class imbalance with **SMOTE**
 - Improving minority typology prediction
